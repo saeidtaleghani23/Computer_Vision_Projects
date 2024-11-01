@@ -10,7 +10,7 @@ This repository contains various projects focused on computer vision tasks, leve
   - Real-time object detection and tracking
   - Application in sports analytics and performance evaluation
 - **Technologies**: Python, YOLOv11, OpenCV
-- **Demo**: [Link to Demo Video](https://github.com/saeidtaleghani23/Computer_Vision_Projects/Football_Player_Tracking_YOLO11)
+- **Demo**: [Link to Demo Video](https://github.com/saeidtaleghani23/Computer_Vision_Projects/tree/main/Football_Player_Tracking_YOLO11)
 
 ### 2. Bus and Truck Detection using R-CNN
 - **Description**: This project utilizes the R-CNN model to detect buses and trucks in traffic scenarios. It focuses on distinguishing larger vehicles in urban settings, which is crucial for traffic management and accident prevention.
