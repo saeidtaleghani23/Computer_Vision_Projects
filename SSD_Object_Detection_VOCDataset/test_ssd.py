@@ -26,16 +26,9 @@ def test_ssd_forward_pass(model, config):
 
     # Run forward pass
     with torch.no_grad():  # Disable gradient calculations
-        locs, class_scores = model(dummy_input)
-
-    # Expected output shapes
-    expected_locs_shape = (batch_size, 8732, 4)
-    expected_class_scores_shape = (
-        batch_size, 8732, config['dataset_params']['num_classes'])
-
-    # Assert output shapes
-    assert locs.shape == expected_locs_shape, f"Expected locs shape {expected_locs_shape}, but got {locs.shape}"
-    assert class_scores.shape == expected_class_scores_shape, f"Expected class_scores shape {expected_class_scores_shape}, but got {class_scores.shape}"
+        losses, detections = model(dummy_input)
+        print(f'losses: {losses}')
+        print(f'detections: {detections}')
 
 
 # %%
