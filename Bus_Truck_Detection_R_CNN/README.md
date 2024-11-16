@@ -36,6 +36,12 @@ This project leverages the power of **Region-based Convolutional Neural Networks
    cd computer-vision-projects/Bus_Truck_Detection_R_CNN
    ```  
 ---
+## 📈 Results
+Here is an example visualizations of the model's performance only for 5 epochs:
+
+- **Result 1:**
+  ![Result 1](https://github.com/saeidtaleghani23/Computer_Vision_Projects/edit/main/Bus_Truck_Detection_R_CNN/output.png)
+---
 ## 🙋‍♂️ Contact
 
 For any inquiries or contributions, feel free to reach out:
