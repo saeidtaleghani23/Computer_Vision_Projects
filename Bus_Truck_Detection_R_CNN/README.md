@@ -4,6 +4,9 @@
 
 This project leverages the power of **Region-based Convolutional Neural Networks (R-CNN)** to detect **buses** and **trucks** in images. It showcases the simplicity and efficiency of R-CNN for object detection tasks, offering insights into its pipeline and implementation.
 
+In the implementation, I used **VGG16** as the backbone network for feature extraction and fine-tuned it for object detection.
+
+
 ---
 
 ## 🚀 Features
@@ -37,7 +40,7 @@ This project leverages the power of **Region-based Convolutional Neural Networks
    ```  
 ---
 ## 📈 Results
-Here is an example visualizations of the model's performance after only 5 epochs:
+Here is an example visualizations of the model's performance after only **5 epochs**:
 
 - 
   ![Output](https://raw.githubusercontent.com/saeidtaleghani23/Computer_Vision_Projects/main/Bus_Truck_Detection_R_CNN/output.png)
