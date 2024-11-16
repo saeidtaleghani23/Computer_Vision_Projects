@@ -18,7 +18,6 @@ This project leverages the power of **Region-based Convolutional Neural Networks
 ## 📁 Project Structure
 
 ```plaintext
-.
 ├── Dataset/               # Contains datasets and annotations
 │   ├── df.csv             # Dataset preparation and augmentation
 │   ├── images/            # images
@@ -26,11 +25,7 @@ This project leverages the power of **Region-based Convolutional Neural Networks
 ├── R_CNN.ipynb/           # Jupyter notebooks for experiments and visualization 
 ├── README.md              # Project documentation
 └── requirements.txt       # Python dependencies
+````
 
-## 🛠️ Installation
 
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/your_username/simple-rcnn-detection.git
-   cd simple-rcnn-detection
 
