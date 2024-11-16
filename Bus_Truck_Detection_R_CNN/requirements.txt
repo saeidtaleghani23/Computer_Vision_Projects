@@ -1,0 +1,7 @@
+torch==2.4.1+cu118
+torchvision==0.19.1+cu118
+torch-snippets==0.545
+pandas==2.0.3
+opencv-python==4.10.0
+matplotlib==3.7.5
+selectivesearch==0.4
