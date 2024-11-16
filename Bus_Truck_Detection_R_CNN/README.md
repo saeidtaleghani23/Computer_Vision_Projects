@@ -35,5 +35,13 @@ This project leverages the power of **Region-based Convolutional Neural Networks
    git clone https://github.com/saeidtaleghani23/computer-vision-projects.git
    cd computer-vision-projects/Bus_Truck_Detection_R_CNN
    ```  
+---
+## 🙋‍♂️ Contact
+
+For any inquiries or contributions, feel free to reach out:
+
+- **Name:** Saeid 
+- **Email:** stalegha@uwaterloo.ca 
+- **GitHub:** [saeidtaleghani23](https://github.com/saeidtaleghani23)
 
 
