@@ -1,4 +1,4 @@
-# Simple R-CNN: Detecting Buses and Trucks in Images
+# R-CNN: Detecting Buses and Trucks in Images
 
 ![Project Overview](path/to/your/image.png) <!-- Replace with a project-related image if available -->
 
