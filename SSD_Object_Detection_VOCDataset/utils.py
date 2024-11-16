@@ -125,22 +125,6 @@ def generate_default_boxes(feature_maps: List[torch.Tensor], aspect_ratios: List
     default_boxes = torch.cat(default_boxes, dim=0)
     # default_boxes -> (8732, 4)
 
-    # dboxes = []
-    # for _ in range(feature_maps[0].size(0)):
-    #     dboxes_in_image = default_boxes
-    #     # x1 = cx - 0.5 * width
-    #     # y1 = cy - 0.5 * height
-    #     # x2 = cx + 0.5 * width
-    #     # y2 = cy + 0.5 * height
-    #     dboxes_in_image = torch.cat(
-    #         [
-    #             (dboxes_in_image[:, :2] - 0.5 * dboxes_in_image[:, 2:]),
-    #             (dboxes_in_image[:, :2] + 0.5 * dboxes_in_image[:, 2:]),
-    #         ],
-    #         -1,
-    #     )
-    #     dboxes.append(dboxes_in_image.to(feature_maps[0].device))
-
     return default_boxes
 
 
@@ -189,8 +173,6 @@ def cxcy_to_xy(cxcy):
         -1,
     )
     return dboxes_in_image
-    # return torch.cat([cxcy[:, :2] - 0.5 * (cxcy[:, 2:]),  # x_min, y_min
-    #                   cxcy[:, :2] + 0.5 * (cxcy[:, 2:])], 1)  # x_max, y_max
 
 
 def cxcy_to_gcxgcy(cxcy, priors_cxcy):
