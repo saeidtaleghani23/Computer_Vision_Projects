@@ -27,3 +27,10 @@ This project leverages the power of **Region-based Convolutional Neural Networks
 ├── README.md              # Project documentation
 └── requirements.txt       # Python dependencies
 
+## 🛠️ Installation
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/your_username/simple-rcnn-detection.git
+   cd simple-rcnn-detection
+
