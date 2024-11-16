@@ -27,5 +27,14 @@ This project leverages the power of **Region-based Convolutional Neural Networks
 └── requirements.txt       # Python dependencies
 ````
 
+---
+## 🛠️ Installation
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/saeidtaleghani23/computer-vision-projects.git
+   cd computer-vision-projects/Bus_Truck_Detection_R_CNN
+ ````  
+
 
 
