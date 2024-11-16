@@ -1,6 +1,6 @@
 # R-CNN: Detecting Buses and Trucks in Images
 
-![Project Overview](path/to/your/image.png) <!-- Replace with a project-related image if available -->
+[![Project Overview](https://img.shields.io/badge/Original-Paper-blue)](https://arxiv.org/abs/1311.2524) <!-- Link to the original paper -->
 
 This project leverages the power of **Region-based Convolutional Neural Networks (R-CNN)** to detect **buses** and **trucks** in images. It showcases the simplicity and efficiency of R-CNN for object detection tasks, offering insights into its pipeline and implementation.
 
@@ -19,15 +19,11 @@ This project leverages the power of **Region-based Convolutional Neural Networks
 
 ```plaintext
 .
-├── data/                  # Contains datasets and annotations
-├── models/                # Trained model weights and configurations
-├── notebooks/             # Jupyter notebooks for experiments and visualization
-├── src/                   # Source code for the R-CNN pipeline
-│   ├── dataset.py         # Dataset preparation and augmentation
-│   ├── model.py           # R-CNN model implementation
-│   ├── train.py           # Training script
-│   ├── evaluate.py        # Evaluation script
-├── results/               # Outputs (detections, metrics, visualizations)
+├── Dataset/               # Contains datasets and annotations
+│   ├── df.csv             # Dataset preparation and augmentation
+│   ├── images/            # images
+│   │   ├──images
+├── R_CNN.ipynb/           # Jupyter notebooks for experiments and visualization 
 ├── README.md              # Project documentation
 └── requirements.txt       # Python dependencies
 
